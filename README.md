@@ -1,6 +1,6 @@
 # Dashboard Grid Sample Summary
 
-Overall, I focus mostly on developing the layout and didn't focus much on styling nor logic, mostly hardcoded logics and indeed focus on making the layout. It's not responsive and I made the pages to be 100vh.
+Overall, I focus mostly on developing the layout and didn't focus much on styling nor logic, mostly hardcoded logics and indeed focus on making the layout. It's not responsive and I made the pages to be 100vh. Indeed for some of components and logics, it copied from stackoverflow, flowbite tailwind components and other sources to quickly add everything together.
 
 UI: https://www.figma.com/file/1hxGbNbcUSIhNuSjutAbu7/Dashboard-Grid-Design?node-id=6%3A2&t=xVi7PqZ1rNL92nhH-0
 
