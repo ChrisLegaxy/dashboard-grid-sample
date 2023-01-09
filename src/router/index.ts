@@ -1,14 +1,19 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 
+/**
+ * * Code Splitting
+ */
 const MainDashboardPage = () => import("../pages/MainDashboardPage.vue");
+const ManageProductPage = () => import("../pages/ManageProductPage.vue");
 
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
     component: MainDashboardPage,
-    meta: {
-      title: "Home",
-    },
+  },
+  {
+    path: "/products/manage",
+    component: ManageProductPage,
   },
 ];
 
